@@ -80,6 +80,7 @@ def depth_first_search(start, goal):
                 frontier_set.add(child)
     return None
 
+
 def depth_limited_search(state, goal, limit, path):
     if state == goal:
         return path
